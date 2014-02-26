@@ -14,6 +14,9 @@ source.
 
 `ruby get_images.rb my_csv1.csv my_csv2.csv`
 
+You can add as many csv's as you would like. The script will
+move sequentially through all terms in the first column of each.
+
 ## Setup
 
 You'll need to modify line 42 of get_images.rb to include your
