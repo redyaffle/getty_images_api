@@ -161,4 +161,4 @@ class QueryGettyImages
   end
 end
 
-QueryGettyImages.new([*ARGV], NUM_IMAGES_TO_DOWNLOAD).run_downloader
+QueryGettyImages.new(ARGV, NUM_IMAGES_TO_DOWNLOAD).run_downloader
